@@ -42,7 +42,7 @@ function makeRecipes(data){
 button.addEventListener('click', () => {
     
     if (input.value === '' || input.value === null){
-        errorMessage.textContent = 'Oopse looks like you have not enetered and ingrediant.'
+        errorMessage.textContent = 'Oopse looks like you have not entered and ingredient.'
     } else {
     container.innerHTML = '';
     searchResult = api + input.value;
